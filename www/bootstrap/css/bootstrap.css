@@ -101,6 +101,10 @@ textarea {
   overflow: auto;
   vertical-align: top;
 }
+#row {
+  opacity: 0.95;
+  background: white;
+}
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -3511,20 +3515,49 @@ a.thumbnail:hover {
   padding: 60px;
   margin-bottom: 30px;
   background-color: #f5f5f5;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  opacity: 0.8;
+  -webkit-border-top-left-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  -moz-border-radius-topleft: 12px;
+  -moz-border-radius-topright: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .hero-unit h1 {
   margin-bottom: 0;
   font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #d75f17;
 }
 .hero-unit p {
   font-size: 18px;
   font-weight: 200;
   line-height: 27px;
+}
+.antihero-unit {
+  background-color: #f5f5f5;
+  opacity: 0.8;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-left-radius: 12px;
+  -webkit-border-bottom-right-radius: 12px;
+  -moz-border-radius-bottomleft: 12px;
+  -moz-border-radius-bottomright: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-top: -30px;
+  padding-bottom: 30px;
 }
 .pull-right {
   float: right;
