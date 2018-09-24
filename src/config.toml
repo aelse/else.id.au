@@ -1,0 +1,17 @@
+baseURL = "https://else.id.au/"
+languageCode = "en-au"
+title = "Alexander Else"
+theme = "kube"
+description = "I am an infrastructure software engineer based in Sydney. I work with distributed systems. Sometimes things catch on fire."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "newpixcom" # add your company name
+  github = "aelse" # add your github profile name
+  twitter = "skakfu" # add your twitter profile
+  email = "aelse@else.id.au"
+
+[[menu.main]]
+    name = "Stuff"
+    weight = -100
+    url = "/stuff/"
