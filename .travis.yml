@@ -13,7 +13,7 @@ install:
   - rm -rf public || exit 0
   - wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.tar.gz
   - mkdir ~/bin || true
-  - tar -C ~/bin -zxvf hugo_0.41_Linux-64bit.tar.gz
+  - tar -C ~/bin -zxvf hugo_0.49_Linux-64bit.tar.gz
   - chmod 755 ~/bin/hugo
 
 # Build the website
