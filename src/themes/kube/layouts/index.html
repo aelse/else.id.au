@@ -1,0 +1,32 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>
+    {{ range $i, $para := split .Description "|" }}
+    {{$para}}<br />
+    {{ end }}
+    </p>
+  </div>
+  <div id="contact">
+    <div class="class=push-center">
+      <div id="email" style="line-height: 36px; font-size: 24px; margin: 10px; display: none;">
+          <center><p>Hi! You can email me at<br>aelse at else.id.au</p></center>
+      </div>
+    </div>
+  </div>
+  <div id="action-buttons">
+    <p>
+      <a href="#" onClick="$('#email').css({'display':''}); return 0;"><img src="/img/email.png" width="50px" alt="Email"></a>
+      <a href="https://github.com/{{ .Site.Params.github }}"><img src="/img/github.png" width="50px" alt="GitHub"></a>
+      <a href="https://twitter.com/{{ .Site.Params.twitter }}"><img src="/img/twitte-r.png" width="50px" alt="Twitte-r"></a>
+      <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}/"><img src="/img/linked-in.png" width="50px" alt="Linked-In"></a>
+    </p>
+  </div>
+  <div id="padding" style="padding-top: 50px;"></div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
