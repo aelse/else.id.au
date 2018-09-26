@@ -12,7 +12,7 @@ Paginate = 4
   email = "aelse@else.id.au"
   linkedin = "alexander-else"
 
-[[menu.main]]
-    name = "Stuff"
-    weight = -100
-    url = "/stuff/"
+#[[menu.main]]
+#    name = "Stuff"
+#    weight = -100
+#    url = "/stuff/"
