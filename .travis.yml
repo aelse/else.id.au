@@ -19,7 +19,7 @@ install:
 # Build the website
 script:
   - cd src
-  - ~/bin/hugo --theme=kube
+  - ~/bin/hugo --theme=kube -s src
 
 # Deploy to GitHub pages
 deploy:
