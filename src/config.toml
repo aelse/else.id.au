@@ -6,10 +6,11 @@ description = "Homepage of Alexander Else. I am an infrastructure software engin
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "newpixcom" # add your company name
+  author = "Alexander Else" # add your company name
   github = "aelse" # add your github profile name
   twitter = "skakfu" # add your twitter profile
   email = "aelse@else.id.au"
+  linkedin = "alexander-else"
 
 [[menu.main]]
     name = "Stuff"
