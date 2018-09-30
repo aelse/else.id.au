@@ -1,18 +1,103 @@
-baseURL = "https://else.id.au/"
-languageCode = "en-au"
+baseurl = "https://else.id.au"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
 title = "Alexander Else"
-theme = "kube"
-description = "Homepage of Alexander Else. I am an infrastructure software engineer based in Sydney. I like to program distributed systems. Sometimes things catch on fire."
-Paginate = 4
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "vs2015"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+googleAnalytics = "UA-126702280-1"
+
 [Params]
-  RSSLink = "/index.xml"
-  author = "Alexander Else" # add your company name
-  github = "aelse" # add your github profile name
-  twitter = "indisruptible" # add your twitter profile
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Stuff and things"
+  #logo = "img/avatar-icon.png"
+  favicon = "img/aqua.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  # rss = true
+  # comments = true
+  readingTime = true
+  useHLJS = true
+  # socialShare = true
+  gcse = "008293175853022489335:ggnnkab4q6o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Alexander Else"
+  website = "https://else.id.au"
   email = "aelse@else.id.au"
+  github = "aelse"
+  twitter = "indisruptible"
   linkedin = "alexander-else"
+  # facebook = "username"
+  # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  # gitlab = "username"
+  # bitbucket = "username"
+  # reddit = "username"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
 
 [[menu.main]]
-   name = "Stuff"
-   weight = -100
-   url = "/stuff/"
+    name = "Stuff"
+    url = "stuff/"
+    weight = 1
+
+# [[menu.main]]
+#     name = "About"
+#     url = "page/about/"
+#     weight = 3
+
+# [[menu.main]]
+#     identifier = "samples"
+#     name = "Samples"
+#     weight = 2
+
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Big Image Sample"
+#     url = "post/2017-03-07-bigimg-sample"
+#     weight = 1
+
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Math Sample"
+#     url = "post/2017-03-05-math-sample"
+#     weight = 2
+
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Code Sample"
+#     url = "post/2016-03-08-code-sample"
+#     weight = 3
+
+# [[menu.main]]
+#     name = "Tags"
+#     url = "tags"
+#     weight = 3
