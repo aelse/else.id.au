@@ -64,10 +64,10 @@ googleAnalytics = "UA-126702280-1"
   # paypal = "username"
   # telegram = "username"
 
-[[menu.main]]
-    name = "Stuff"
-    url = "stuff/"
-    weight = 1
+# [[menu.main]]
+#     name = "Stuff"
+#     url = "stuff/"
+#     weight = 1
 
 # [[menu.main]]
 #     name = "About"
