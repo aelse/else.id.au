@@ -18,7 +18,7 @@ install:
 
 # Build the website
 script:
-  - ~/bin/hugo --theme=kube --source src --destination ${PWD}/public
+  - ~/bin/hugo --theme=beautifulhugo --source src --destination ${PWD}/public
 
 # Deploy to GitHub pages
 deploy:
