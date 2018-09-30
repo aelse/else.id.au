@@ -9,8 +9,8 @@ bgimage = "/suntower.jpg"
 <p>I like to program distributed systems.
 <p>Sometimes things catch on fire.
 </center>
-<div id="email" style="line-height: 36px; font-size: 24px; margin: 10px; display: none;">
-    <center><p>Hi! You can email me at<br>aelse at else.id.au</p></center>
+<div id="email" style="line-height: 36px; font-size: 24px; margin: 30px; margin-top: 50px; padding: 20px; border: 1px dashed #555; display: none;">
+    <center><p>Hi! You can email me at <a href="mailto:aelse@else.id.au">aelse@else.id.au</a></p></center>
 </div>
 <div style="padding-top: 50px;">
     <center><ul class="list-inline">
