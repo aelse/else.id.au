@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stuffs on Alexander Else</title>
+    <link>https://else.id.au/stuff/</link>
+    <description>Recent content in Stuffs on Alexander Else</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aelse@else.id.au (Alexander Else)</managingEditor>
+    <webMaster>aelse@else.id.au (Alexander Else)</webMaster>
+    <lastBuildDate>Mon, 01 Oct 2018 10:51:20 +1000</lastBuildDate>
+    
+	<atom:link href="https://else.id.au/stuff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloud Toy</title>
+      <link>https://else.id.au/stuff/cloudtoy/</link>
+      <pubDate>Mon, 01 Oct 2018 10:51:20 +1000</pubDate>
+      <author>aelse@else.id.au (Alexander Else)</author>
+      <guid>https://else.id.au/stuff/cloudtoy/</guid>
+      <description>I was in a shop recently and came across a child&amp;rsquo;s nightlight I liked the look of. I thought it&amp;rsquo;d make the start of a good IoT project (because cloud).
+My plan is to turn this into an indicator of when things are broken. The theme will be along the lines of:
+How Using a Wemos D1 mini I can have &amp;ldquo;the cloud&amp;rdquo; connect over wifi to a message queue to receive control messages instructing it on how to configure its lights.</description>
+    </item>
+    
+  </channel>
+</rss>
