@@ -8,7 +8,7 @@ I was in a shop recently and came across a child's nightlight I liked the look o
 
 ![](/img/cloudtoy/cloud_nightlight.jpg)
 
-My plan is to turn this into an indicator when things are broken. The theme will be along the lines of:
+My plan is to turn this into an indicator of when things are broken. The theme will be along the lines of:
 
 ![](/img/cloudtoy/the_cloud.jpg)
 
@@ -19,9 +19,18 @@ Using a Wemos D1 mini I can have "the cloud" connect over wifi to a message queu
 
 A separate component running elsewhere (eg. on a Raspberry Pi) will publish to the message queue in response to something happening that should cause a light change.
 
+## Design
+
+Here's the design. It uses a Wemos D1 mini clone with a few LEDs, 2n7000 mosfets and a resistor.
+
+{{< gallery caption-effect="fade" >}}
+  {{< figure thumb="-small" link="/img/cloudtoy/cloud_toy_bb.jpg" caption="Breadboard">}}
+  {{< figure thumb="-small" link="/img/cloudtoy/cloud_toy_schem.jpg" caption="Schematic" >}}
+{{< /gallery >}}
+
 ## Build
 
-I put together a simple shield for a Wemos D1 mini clone. It's a proto board with a few LEDs, transistors and a resistor.
+I put together a simple shield using some proto board and the components mentioned above.
 
 {{< gallery caption-effect="fade" >}}
   {{< figure thumb="-small" link="/img/cloudtoy/shield.jpg" caption="Shield mounted on Wemos D1 mini clone">}}
